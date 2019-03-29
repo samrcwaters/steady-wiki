@@ -9,4 +9,4 @@ run `npm install` to get all the required dependencies.
 Run `node server` in the base /steady-wiki directory to start the REST API.
 
 ## 3. Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`.
