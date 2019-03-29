@@ -1,0 +1,11 @@
+<div class="columns">
+  <div class="column">
+    <h2 class="title">Sorry! We couldn't find the page you were looking for.</h2>
+    <h4 class="subtitle">Make sure you're typing a route in the form of "/page_title". You can also click on any of the existing pages' names below.</h4>
+    <ul>
+      <li *ngFor="let pageName of pages">
+        <a href="#" [routerLink]="[pageName]">{{pageName}}</a>
+      </li>
+   </ul>
+  </div>
+</div>
